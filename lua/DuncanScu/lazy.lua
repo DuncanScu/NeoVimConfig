@@ -67,5 +67,8 @@ require("lazy").setup({
     },
 
     -- Autoclose (Autoclose tags)
-    { "m4xshen/autoclose.nvim" }
+    { "m4xshen/autoclose.nvim" },
+
+    -- BufferLine (Buffer Manager)
+    { "akinsho/bufferline.nvim" }
 })
