@@ -12,9 +12,16 @@ end)
 require("mason").setup({})
 require("mason-lspconfig").setup({
     ensure_installed = {
+        -- REACT DEVELOPMENT
         "tsserver",
+        "tailwindcss",
+        "eslint",
+
+        -- LUA DEVELOPMENT
         "lua_ls",
-        "gopls"
+
+        -- GO DEVELOPMENT
+        "gopls",
     },
     handlers = {
         lsp.default_setup
